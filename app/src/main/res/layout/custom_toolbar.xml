@@ -1,0 +1,29 @@
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#d5d5d5"
+    android:minHeight="?attr/actionBarSize"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    local:titleTextAppearance="@style/AppTheme.Toolbar.Title"
+    local:titleTextColor="#ffffff">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:elevation="50dp"
+            android:id="@+id/tv_tool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Translator"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+</androidx.appcompat.widget.Toolbar>

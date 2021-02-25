@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Translator Hin-Eng</string>
+
+    <string name="translate_loading">Translate button will be enabled after translation model is downloaded.\n\nPlease wait…</string>
+    <string name="translate_btn">Translate</string>
+    <string name="smart_reply_error">The conversation\'s language isn\'t supported, so the result doesn\'t contain any suggestions.</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+
+</resources>

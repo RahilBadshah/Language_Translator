@@ -5,7 +5,7 @@ An android app which will allows you to translate Hindi to English and English t
 
   Gif                 |   Screenshot 1                 
 :-------------------------:|:-------------------------:
-<img src="https://github.com/RahilBadshah/Language_Translator/blob/master/screenshots/preview.gif?raw=true" alt="drawing" width="320"  /> | <img src="https://github.com/RahilBadshah/Language_Translator/blob/master/screenshots/Screenshot_1.png?raw=true" alt="drawing" width="320"/>
+<img src="https://github.com/RahilBadshah/Language_Translator/blob/master/screenshots/preview_1.gif?raw=true" alt="drawing" width="320"  /> | <img src="https://github.com/RahilBadshah/Language_Translator/blob/master/screenshots/Screenshot_1.png?raw=true" alt="drawing" width="320"/>
 
 
 #### Gradle

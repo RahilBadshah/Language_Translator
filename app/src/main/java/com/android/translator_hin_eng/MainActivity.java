@@ -110,9 +110,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             @Override
                             public void onSuccess(Void v) {
                                 // Model downloaded successfully. Okay to start translating.
-                                // (Set a flag, unhide the translation UI, etc.)
-//                                findViewById(R.id.btn).setEnabled(true);
-//                                Toast.makeText(getApplicationContext(),"One done",Toast.LENGTH_SHORT).show();
                                 download_hin_eng();
                             }
                         })
@@ -121,7 +118,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             @Override
                             public void onFailure(@NonNull Exception e) {
                                 // Model couldn’t be downloaded or other internal error.
-                                // ...
                                 txt.setText(e.getMessage());
                             }
                         });
@@ -251,18 +247,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 assert result != null;
                 et_1.setText(result.get(0));
 
-                translate_hin(et_1.getText().toString().trim());
-
-
-                /*final Handler textViewHandler = new Handler();
-
-                new AsyncTask<Void, Void, Void>() {
-                    @Override
-                    protected Void doInBackground(Void... params) {
-                        translate(edt.getText().toString().trim());
-                        return null;
-                    }
-                }.execute();*/
+                if (flag)
+                    translate_hin(et_1.getText().toString().trim());
+                else translate_eng(et_1.getText().toString().trim());
 
             }
         }
